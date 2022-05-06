@@ -1,23 +1,37 @@
 {
 	"name": "extended-client",
+	"version": "1.0.0",
 	"description": "An extended client for discord.js",
 	"author": {
 		"name": "ItzzBastien"
 	},
-
-	"type": "module",
-	"files": [
-		"lib/**/*"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ItzzBastien/ExtendedClient"
+	},
+	"bugs": {
+		"url": "https://github.com/ItzzBastien/ExtendedClient/issues"
+	},
+	"homepage": "https://github.com/ItzzBastien/ExtendedClient#readme",
+	"license": "ISC",
+	"keywords": [
+		"discord.js",
+		"bot"
 	],
-
+	"type": "module",
 	"engines": {
 		"node": "^16.0.0"
 	},
 	"dependencies": {
 		"@discordjs/builders": "^0.13.0",
+		"@discordjs/rest": "^0.4.1",
+		"discord-api-types": "^0.32.1",
 		"discord.js": "^13.6.0"
 	},
 	"devDependencies": {
 		"typescript": "4.6.4"
-	}
+	},
+	"files": [
+		"lib/**/*"
+	]
 }
