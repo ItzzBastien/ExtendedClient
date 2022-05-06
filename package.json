@@ -1,0 +1,23 @@
+{
+	"name": "extended-client",
+	"description": "An extended client for discord.js",
+	"author": {
+		"name": "ItzzBastien"
+	},
+
+	"type": "module",
+	"files": [
+		"lib/**/*"
+	],
+
+	"engines": {
+		"node": "^16.0.0"
+	},
+	"dependencies": {
+		"@discordjs/builders": "^0.13.0",
+		"discord.js": "^13.6.0"
+	},
+	"devDependencies": {
+		"typescript": "4.6.4"
+	}
+}
