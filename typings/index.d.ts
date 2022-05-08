@@ -1,4 +1,3 @@
-import { ExtendedClient } from "./Structures/Extended.js";
-import { Builder } from "./Structures/Builder.js";
-export declare const Client: typeof ExtendedClient;
-export declare const CommandsBuilder: typeof Builder;
+declare const ExtendedClient: typeof import("./Structures/Extended.js");
+declare const Builder: typeof import("./Structures/Builder.js");
+export { ExtendedClient, Builder };
