@@ -1,5 +1,5 @@
 import { CommandInteraction } from "discord.js";
-import { ExtendedClient } from "../Extended";
+import { ExtendedClient } from "../Structures/Extended";
 import { SlashCommandBuilder } from "@discordjs/builders";
 export interface SlashCommand {
     data: SlashCommandBuilder;

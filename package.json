@@ -18,6 +18,8 @@
 		"discord.js",
 		"bot"
 	],
+	"main": "lib/index.js",
+	"types": "typings",
 	"type": "module",
 	"engines": {
 		"node": "^16.0.0"
