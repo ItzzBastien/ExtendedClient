@@ -14,7 +14,7 @@
 	},
 	"homepage": "https://github.com/ItzzBastien/ExtendedClient#readme",
 	"license": "ISC",
-	"keywords": ["discord.js", "bot", "discord"],
+	"keywords": ["discord.js", "bot", "discord", "node"],
 	"main": "lib/index.js",
 	"types": "typings",
 	"type": "module",
