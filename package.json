@@ -1,6 +1,6 @@
 {
 	"name": "extended-client",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "An extended client for discord.js",
 	"author": {
 		"name": "ItzzBastien"
@@ -21,7 +21,7 @@
 		"node"
 	],
 	"main": "lib/index.js",
-	"types": "typings",
+	"types": "./typings",
 	"type": "module",
 	"engines": {
 		"node": "^16.0.0"
