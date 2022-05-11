@@ -21,7 +21,7 @@
 		"node"
 	],
 	"main": "lib/index.js",
-	"types": "./typings",
+	"types": "typings/index.d.ts",
 	"type": "module",
 	"engines": {
 		"node": "^16.0.0"
@@ -36,6 +36,7 @@
 		"typescript": "4.6.4"
 	},
 	"files": [
-		"lib/**/*"
+		"lib/**/*",
+		"typings/**/*"
 	]
 }
