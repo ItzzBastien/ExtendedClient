@@ -1,6 +1,6 @@
 import { ExtendedClient } from "../Structures/Extended.js";
 export declare class EventHandler {
-    client: ExtendedClient;
+    private client;
     constructor(client: ExtendedClient);
     load(dir: string): Promise<void>;
 }
