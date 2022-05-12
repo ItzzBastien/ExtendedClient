@@ -68,6 +68,20 @@ export function execute(client){
 }
 ```
 
+### Use the integrated Builder
+
+```js
+import { Builder } from "extended-client"
+
+const builder = new Builder(extendedClient)
+
+builder.globalBuild(extendedClient.slashCommands)
+
+// actually, the builder only support global push
+
+```
+
+
 ## Help
 
 if you need help for something don't hesitate to join this [discord server](https://discord.gg/qDwZK8McnW) and ping Bastien#1414
