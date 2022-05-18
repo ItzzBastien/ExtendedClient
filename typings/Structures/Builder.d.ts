@@ -6,6 +6,6 @@ export declare class Builder {
     private clientId;
     private rest;
     constructor(client: ExtendedClient);
-    globalBuild(commands: Collection<String, SlashCommand>): Promise<string>;
+    globalBuild(commands: Collection<string, SlashCommand>): Promise<string>;
     private globalPushInApp;
 }

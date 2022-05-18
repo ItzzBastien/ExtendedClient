@@ -1,6 +1,6 @@
 # Extended Client
 
-A Client who extend the base of [discord.js](https://github.com/discordjs/discord.js), offer an integrated builder of SlashCommands with [@discordjs/builders](https://github.com/discordjs/builders) and handlers.
+A Client who extends the base of [discord.js](https://github.com/discordjs/discord.js), offers an integrated builder of SlashCommands with [@discordjs/builders](https://github.com/discordjs/builders) and handlers.
 
 ## Installation
 
