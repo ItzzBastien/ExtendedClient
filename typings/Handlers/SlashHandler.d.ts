@@ -9,5 +9,5 @@ export interface SlashCommand {
 export declare class SlashCommandHandler {
     slashCommands: Collection<string, SlashCommand>;
     constructor();
-    load(dir: string): Promise<void>;
+    load(dir: string, deepth?: number): Promise<void>;
 }
