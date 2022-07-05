@@ -1,11 +1,12 @@
 import { Collection } from "discord.js";
-import { SlashCommand } from "../Handlers/SlashHandler";
-import { ExtendedClient } from "./Extended";
+import { ExtendedClient } from "../Extended";
+import { Command } from "./Command";
 export declare class Builder {
     private token;
     private clientId;
     private rest;
     constructor(client: ExtendedClient);
-    globalBuild(commands: Collection<string, SlashCommand>): Promise<string>;
+    buildCommands(commands: Collection<string, Command>): Promise<void>;
     private globalPushInApp;
+    private guildPushInApp;
 }

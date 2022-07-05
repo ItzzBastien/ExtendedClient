@@ -6,7 +6,7 @@ export interface EventFile {
     execute: (client: ExtendedClient, ...args: any[]) => any | Promise<any>;
 }
 export declare class EventHandler {
-    private client;
+    private readonly client;
     constructor(client: ExtendedClient);
     load(dir: string): Promise<void>;
 }

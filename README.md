@@ -17,8 +17,7 @@ Setup the client.
 ```js
 const extendedClient = new ExtendedClient({
     intents: myIntents,
-    slashCommandHandler: true,
-    eventHandler: true
+    token: "TOKEN"
 })
 ```
 
@@ -26,17 +25,10 @@ Load the handlers.
 ```js
 extendedCLient.eventHandler.load("myDirectory")
 
-extendedClient.slashCommands.load("myDirectory")
+extendedClient.slashHandler.load("myDirectory", 0) // 0 is a default value but you can use another positive value
 /**
  * Warning !!
- * acutally slashCommands handler must be in the format:
- * 
- * index.js
- * commandHandler/
- *  |-> commandCategory/
- *      |-> command.js
- * 
- * and event handler must be in the following format:
+ * handler must be in the following format:
  * 
  * index.js
  * eventHandler/
@@ -75,7 +67,7 @@ import { Builder } from "extended-client"
 
 const builder = new Builder(extendedClient)
 
-builder.globalBuild(extendedClient.slashCommands)
+builder.globalBuild(extendedClient.slashHandler.slashCommands)
 
 // actually, the builder only support global push
 

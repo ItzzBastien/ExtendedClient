@@ -3,3 +3,5 @@ src
 pnpm-lock.yaml
 tsconfig.json
 .vscode
+coverage
+jest.config.ts

@@ -5,7 +5,7 @@ interface ExtendedClientOptions extends ClientOptions {
     token: string;
 }
 export declare class ExtendedClient extends Client {
-    slashCommands: SlashCommandHandler;
+    slashHandler: SlashCommandHandler;
     eventHandler: EventHandler;
     constructor(params: ExtendedClientOptions);
 }

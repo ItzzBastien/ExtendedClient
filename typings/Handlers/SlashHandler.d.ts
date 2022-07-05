@@ -7,7 +7,7 @@ export interface SlashCommand {
     guild?: string;
 }
 export declare class SlashCommandHandler {
-    slashCommands: Collection<string, SlashCommand>;
+    readonly slashCommands: Collection<string, SlashCommand>;
     constructor();
     load(dir: string, deepth?: number): Promise<void>;
 }
